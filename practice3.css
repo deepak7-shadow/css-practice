@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.event {
+    background-color: white;
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+.event h2 {
+    color: purple;
+}
+
+.event h3 {
+    color: darkblue;
+    margin-top: 25px;
+}
+
+.event p {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
